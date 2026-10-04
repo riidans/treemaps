@@ -1,0 +1,19 @@
+[run]
+source = src/treemap
+branch = True
+parallel = False
+omit =
+    src/treemap/gui.py
+    src/treemap/__main__.py
+
+[report]
+show_missing = True
+skip_covered = False
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+
+[paths]
+source =
+    src/treemap
+    */src/treemap
