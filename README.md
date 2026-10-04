@@ -1,6 +1,6 @@
 # Treemaps
 
-Treemaps is a PyQt6 filesystem visualizer. It scans a directory, aggregates file sizes, and displays the result as an interactive squarified treemap, based on Mark Bruls, Kees Huizing, and Jarke J. van Wijk's Squarified Treemap Algorithm. 
+Treemaps is a PyQt6 filesystem visualizer. It scans a directory, aggregates file sizes, and displays the result as an interactive squarified treemap, based on Mark Bruls, Kees Huizing, and Jarke J. van Wijk's [Squarified Treemaps paper](https://classes.engineering.wustl.edu/cse557/readings/squarified-treemap.pdf).
 
 ## Usage
 
